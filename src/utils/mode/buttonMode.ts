@@ -4,6 +4,11 @@ type TButtonMode = {
     height: string;
     backgroundColor: string;
     color: string;
+    borderRadius: string;
+    border: string;
+    h_background: string;
+    h_color: string;
+    cursor: string;
   };
 };
 
@@ -11,19 +16,34 @@ export const buttonMode: TButtonMode = {
   s: {
     width: "120px",
     height: "40px",
-    backgroundColor: "#fff",
-    color: "#000",
+    backgroundColor: "#cd2640",
+    color: "#222",
+    borderRadius: "8px",
+    border: "1px solid #222",
+    h_background: "#222",
+    h_color: "#cd2640",
+    cursor: "pointer",
   },
   xs: {
     width: "180px",
     height: "50px",
-    backgroundColor: "#fff",
-    color: "#000",
+    backgroundColor: "#ddd",
+    color: "#fff",
+    borderRadius: "12px",
+    border: "1px solid #fff",
+    h_background: "#fff",
+    h_color: "#ddd",
+    cursor: "pointer",
   },
   lg: {
     width: "200px",
     height: "60px",
-    backgroundColor: "#fff",
-    color: "#000",
+    backgroundColor: "skyblue",
+    color: "#cd2640",
+    borderRadius: "20px",
+    border: "1px solid #cd2640",
+    h_background: "#cd2640",
+    h_color: "skyblue",
+    cursor: "none",
   },
 };

@@ -4,7 +4,7 @@ import Button from "./atoms/button/Button";
 function App() {
   return (
     <div className="App">
-      <Button mode="s" customStyle={{ width: "200px" }} />
+      <Button mode="lg" />
     </div>
   );
 }
