@@ -1,1 +1,1 @@
-export type ButtonMode = "s" | "xs" | "lg" | undefined;
+export type ButtonMode = "s" | "xs" | "lg";

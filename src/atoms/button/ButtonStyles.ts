@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { buttonMode } from "../../utils/mode/buttonMode";
+import { buttonMode } from "../../styles/mode/buttonMode";
 
 type ButtonProps = { mode: "s" | "xs" | "lg" };
 

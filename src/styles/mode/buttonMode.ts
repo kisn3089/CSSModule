@@ -6,10 +6,25 @@ type TButtonMode = {
     color: string;
     borderRadius: string;
     border: string;
-    h_background: string;
-    h_color: string;
+    h_background?: string;
+    h_color?: string;
     cursor: string;
   };
+};
+
+const test: { [index: string]: { name: string; age: number } } = {
+  a: {
+    name: "qqq",
+    age: 23,
+  },
+  b: {
+    name: "qqq",
+    age: 23,
+  },
+  c: {
+    name: "qqq",
+    age: 23,
+  },
 };
 
 export const buttonMode: TButtonMode = {
@@ -31,8 +46,6 @@ export const buttonMode: TButtonMode = {
     color: "#fff",
     borderRadius: "12px",
     border: "1px solid #fff",
-    h_background: "#fff",
-    h_color: "#ddd",
     cursor: "pointer",
   },
   lg: {
@@ -42,8 +55,6 @@ export const buttonMode: TButtonMode = {
     color: "#cd2640",
     borderRadius: "20px",
     border: "1px solid #cd2640",
-    h_background: "#cd2640",
-    h_color: "skyblue",
     cursor: "none",
   },
 };
