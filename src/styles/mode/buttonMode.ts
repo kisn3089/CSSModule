@@ -12,21 +12,6 @@ type TButtonMode = {
   };
 };
 
-const test: { [index: string]: { name: string; age: number } } = {
-  a: {
-    name: "qqq",
-    age: 23,
-  },
-  b: {
-    name: "qqq",
-    age: 23,
-  },
-  c: {
-    name: "qqq",
-    age: 23,
-  },
-};
-
 export const buttonMode: TButtonMode = {
   s: {
     width: "120px",
